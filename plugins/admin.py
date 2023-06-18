@@ -24,15 +24,19 @@ async def warn(c, m):
 async def buypremium(bot, message):
 	await message.reply_text("🦋 Select Plan to upgrade...", quote=True, reply_markup=InlineKeyboardMarkup([
 		           [
-				   InlineKeyboardButton("🥉 Bronze - 5GB 🥉", callback_data="vip1")
+				   InlineKeyboardButton("🥉 Bronze - 10GB/50Rs 🥉", callback_data="vip1")
 				   ],[
-					InlineKeyboardButton("🥈 Silver - 10GB 🥈", callback_data="vip2")
+					InlineKeyboardButton("🥈 Silver - 20GB/80Rs 🥈", callback_data="vip2")
 				   ],[
-					InlineKeyboardButton("🪙 Gold - 20GB 🪙", callback_data="vip3")
+					InlineKeyboardButton("🪙 Gold - 50GB/140Rs 🪙", callback_data="vip3")
 				   ],[
-					InlineKeyboardButton("✨ Platinum - 40GB ✨", callback_data="vip4")
+					InlineKeyboardButton("✨ Platinum - 70GB/180Rs ✨", callback_data="vip4")
 				   ],[
-					InlineKeyboardButton("💎 Diamond - 100GB 💎", callback_data="vip5")
+					InlineKeyboardButton("💎 Diamond - 100GB/220 💎", callback_data="vip5")
+				   ],[
+					InlineKeyboardButton("✨ Team Platinum - 50GB/200Rs ✨", callback_data="team1")
+				   ],[
+					InlineKeyboardButton("💎 Team Diamond - UNLIMITED/400Rs 💎", callback_data="team2")
 					]]))
 
 
@@ -65,11 +69,11 @@ async def resetpower(bot, message):
 async def vip1(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit  = 5368709120
-	uploadlimit(int(user_id),5368709120)
+	inlimit  = 10000000000
+	uploadlimit(int(user_id),10000000000)
 	usertype(int(user_id),"🪙 **BRONZE**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Bronze Premium Upload limit 5 GB")
+	await update.message.edit("Added successfully To Bronze Premium Upload limit 10 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Bronze. check your plan here /myplan")
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Bronze. check your plan here /myplan")
 
@@ -77,11 +81,11 @@ async def vip1(bot,update):
 async def vip2(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 10737418240
-	uploadlimit(int(user_id), 10737418240)
+	inlimit = 20000000000
+	uploadlimit(int(user_id), 20000000000)
 	usertype(int(user_id),"💫 **SILVER**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Silver Premium Upload limit 10 GB")
+	await update.message.edit("Added successfully To Silver Premium Upload limit 20 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Silver. check your plan here /myplan")
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Silver. check your plan here /myplan")
 
@@ -89,11 +93,11 @@ async def vip2(bot,update):
 async def vip3(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 21474836480
-	uploadlimit(int(user_id), 21474836480)
+	inlimit = 50000000000
+	uploadlimit(int(user_id), 50000000000)
 	usertype(int(user_id),"💎 **GOLD**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Gold Premium Upload limit 20 GB")
+	await update.message.edit("Added successfully To Gold Premium Upload limit 50 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Gold. check your plan here /myplan")
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Gold. check your plan here /myplan")
 	
@@ -101,11 +105,11 @@ async def vip3(bot,update):
 async def vip4(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 42949672960
-	uploadlimit(int(user_id), 42949672960)
+	inlimit = 70000000000
+	uploadlimit(int(user_id), 70000000000)
 	usertype(int(user_id),"💎 **PLATINUM**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Platinum Premium Upload limit 40 GB")
+	await update.message.edit("Added successfully To Platinum Premium Upload limit 70 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Platinum. check your plan here /myplan")
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Platinum. check your plan here /myplan")
 	
@@ -113,15 +117,39 @@ async def vip4(bot,update):
 async def vip5(bot,update):
 	id = update.message.reply_to_message.text.split("/addpremium")
 	user_id = id[1].replace(" ", "")
-	inlimit = 107374182400
-	uploadlimit(int(user_id), 107374182400)
+	inlimit = 100000000000
+	uploadlimit(int(user_id), 100000000000)
 	usertype(int(user_id),"💎 **DIAMOND**")
 	addpre(int(user_id))
-	await update.message.edit("Added successfully To Premium Upload limit 150 GB")
+	await update.message.edit("Added successfully To Premium Upload limit 100 GB")
 	await bot.send_message(user_id,"Hey you are Upgraded To Diamond. check your plan here /myplan")
 	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Diamond. check your plan here /myplan")
+	
+@Client.on_callback_query(filters.regex('team1'))
+async def team1(bot,update):
+	id = update.message.reply_to_message.text.split("/addpremium")
+	user_id = id[1].replace(" ", "")
+	inlimit = 50000000000
+	uploadlimit(int(user_id), 50000000000)
+	usertype(int(user_id),"💎 **DIAMOND**")
+	addpre(int(user_id))
+	await update.message.edit("Added successfully To Premium Upload limit 50 GB")
+	await bot.send_message(user_id,"Hey you are Upgraded To Platinum Team Plan. check your plan here /myplan")
+	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Platinum Team Plan. check your plan here /myplan")
+	
+@Client.on_callback_query(filters.regex('team2'))
+async def team2(bot,update):
+	id = update.message.reply_to_message.text.split("/addpremium")
+	user_id = id[1].replace(" ", "")
+	inlimit = 1000000000000
+	uploadlimit(int(user_id), 1000000000000)
+	usertype(int(user_id),"💎 **DIAMOND**")
+	addpre(int(user_id))
+	await update.message.edit("Added successfully To Premium Unlimited Upload limit ")
+	await bot.send_message(user_id,"Hey you are Upgraded To Diamond Team Plan. check your plan here /myplan")
+	await bot.send_message(log_channel,f"⚡️ Plan Upgraded successfully 💥\n\nHey you are Upgraded To Diamond Team Plan. check your plan here /myplan")
 
-# CEASE POWER MODE @LAZYDEVELOPER
+# CEASE POWER MODE 
 
 @Client.on_callback_query(filters.regex('cp1'))
 async def cp1(bot,update):

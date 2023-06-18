@@ -11,24 +11,24 @@ async def upgrade(bot,update):
 	⛩️INDIVIDUAL PLAN - FOR 1 MEMBER⛩️
 	
 	🥉 Bronze Tier🥉 
-	💫Daily  Upload  limit 5 GB💫
-	💵Price Rs 20 or 0.5$ per Month💵
+	💫Daily  Upload  limit 10 GB💫
+	💵Price Rs 50 per Month💵
 	
 	🥈 Silver Tier 🥈 
-	💫Daily  Upload  limit 10 GB💫
-	💵Price Rs 35 or 1$ per Month💵
+	💫Daily  Upload  limit 20 GB💫
+	💵Price Rs 80 per Month💵
 	
 	🪙 Gold Tier 🪙 
-	💫Daily  Upload  limit 20 GB💫
-	💵Price Rs 50 or 1.5$ per Month💵
+	💫Daily  Upload  limit 50 GB💫
+	💵Price Rs 140 per Month💵
 	
 	✨ Platinum Tier ✨ 
-	💫Daily  Upload  limit 40 GB💫
-	💵Price Rs 80 or 2.5$ per Month💵
+	💫Daily  Upload  limit 70 GB💫
+	💵Price Rs 180 per Month💵
 	
 	💎 Diamond Tier 💎
 	💫Daily  Upload  limit 100 GB💫
-	💵Price Rs 150 or 5$ per Month💵
+	💵Price Rs 220 per Month💵
 	
 	Pay Using Upi I'd ```ruban.private@oksbi```
 	
@@ -36,25 +36,13 @@ async def upgrade(bot,update):
 	
 	⛩️TEAM PLANS - FOR 1 TO 4 MEMBERS⛩️
 	
-	🥉 Bronze Tier🥉 
-	💫Daily  Upload  limit 5 GB💫
-	💵Price Rs 40 or 1$ per Month💵
-	
-	🥈 Silver Tier 🥈 
-	💫Daily  Upload  limit 10 GB💫
-	💵Price Rs 70 or 2$ per Month💵
-	
-	🪙 Gold Tier 🪙 
-	💫Daily  Upload  limit 20 GB💫
-	💵Price Rs 100 or 3$ per Month💵
-	
 	✨ Platinum Tier ✨ 
-	💫Daily  Upload  limit 40 GB💫
-	💵Price Rs 160 or 5$ per Month💵
+	💫Daily 50 GB For Each Person in Team💫
+	💵Price Rs 200 per Month💵
 	
 	💎 Diamond Tier 💎
-	💫Daily  Upload  limit 100 GB💫
-	💵Price Rs 300 or 10$ per Month💵
+	💫Daily  Upload  limit UNLIMITED💫
+	💵Price Rs 400 per Month💵
 	
 	Pay Using Upi I'd ```ruban.private@oksbi```
 	
@@ -79,25 +67,26 @@ async def upgradecm(bot,message):
 	
 	⛩️INDIVIDUAL PLAN - FOR 1 MEMBER⛩️
 	
+	
 	🥉 Bronze Tier🥉 
-	💫Daily  Upload  limit 5 GB💫
-	💵Price Rs 20 or 0.5$ per Month💵
+	💫Daily  Upload  limit 10 GB💫
+	💵Price Rs 50 per Month💵
 	
 	🥈 Silver Tier 🥈 
-	💫Daily  Upload  limit 10 GB💫
-	💵Price Rs 35 or 1$ per Month💵
+	💫Daily  Upload  limit 20 GB💫
+	💵Price Rs 80 per Month💵
 	
 	🪙 Gold Tier 🪙 
-	💫Daily  Upload  limit 20 GB💫
-	💵Price Rs 50 or 1.5$ per Month💵
+	💫Daily  Upload  limit 50 GB💫
+	💵Price Rs 140 per Month💵
 	
 	✨ Platinum Tier ✨ 
-	💫Daily  Upload  limit 40 GB💫
-	💵Price Rs 80 or 2.5$ per Month💵
+	💫Daily  Upload  limit 70 GB💫
+	💵Price Rs 180 per Month💵
 	
 	💎 Diamond Tier 💎
 	💫Daily  Upload  limit 100 GB💫
-	💵Price Rs 150 or 5$ per Month💵
+	💵Price Rs 220 per Month💵
 	
 	Pay Using Upi I'd ```ruban.private@oksbi```
 	
@@ -105,25 +94,13 @@ async def upgradecm(bot,message):
 	
 	⛩️TEAM PLANS - FOR 1 TO 4 MEMBERS⛩️
 	
-	🥉 Bronze Tier🥉 
-	💫Daily  Upload  limit 5 GB💫
-	💵Price Rs 40 or 1$ per Month💵
-	
-	🥈 Silver Tier 🥈 
-	💫Daily  Upload  limit 10 GB💫
-	💵Price Rs 70 or 2$ per Month💵
-	
-	🪙 Gold Tier 🪙 
-	💫Daily  Upload  limit 20 GB💫
-	💵Price Rs 100 or 3$ per Month💵
-	
 	✨ Platinum Tier ✨ 
-	💫Daily  Upload  limit 40 GB💫
-	💵Price Rs 160 or 5$ per Month💵
+	💫Daily 50 GB For Each Person in Team💫
+	💵Price Rs 200 per Month💵
 	
 	💎 Diamond Tier 💎
-	💫Daily  Upload  limit 100 GB💫
-	💵Price Rs 300 or 10$ per Month💵
+	💫Daily  Upload  limit UNLIMITED💫
+	💵Price Rs 400 per Month💵
 	
 	Pay Using Upi I'd ```ruban.private@oksbi```
 	

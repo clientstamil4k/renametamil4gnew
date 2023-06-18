@@ -34,7 +34,7 @@
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/tamil4k/rename">
+<a href="https://heroku.com/deploy?template=https://github.com/clientstamil4k/renametamil4gnew">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
